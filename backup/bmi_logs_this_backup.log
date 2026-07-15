@@ -1,0 +1,144 @@
+[WARN] [2026-07-13 18:31:41] PHP CLI is disabled manually, plugin will omit all PHP CLI steps.
+[WARN] [2026-07-13 18:31:41] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2026-07-13 18:31:41] Initializing backup...
+[INFO] [2026-07-13 18:31:41] Backup & Migration version: 2.1.6
+[INFO] [2026-07-13 18:31:41] Site which will be backed up: https://overtakefan.s2-tastewp.com
+[INFO] [2026-07-13 18:31:41] PHP Version: 8.5.3
+[INFO] [2026-07-13 18:31:41] WP Version: 7.0.1
+[INFO] [2026-07-13 18:31:41] MySQL Version: 8.0.45
+[INFO] [2026-07-13 18:31:41] MySQL Max Length: 268435456
+[INFO] [2026-07-13 18:31:41] Web server: TasteWP-S2 Official/3.0.0 (nginx fork)
+[INFO] [2026-07-13 18:31:41] Max execution time (in seconds): 100
+[INFO] [2026-07-13 18:31:41] Memory limit (server): 256M
+[INFO] [2026-07-13 18:31:41] Memory limit (wp-config): 128M
+[INFO] [2026-07-13 18:31:41] Memory limit (wp-config admin): 128M
+[INFO] [2026-07-13 18:31:41] Max rows per query (this site): 500
+[INFO] [2026-07-13 18:31:41] Checking if backup dir is writable...
+[INFO] [2026-07-13 18:31:41] Initializing custom error handler
+[SUCCESS] [2026-07-13 18:31:41] Yup it is writable...
+[STEP] [2026-07-13 18:31:41] Scanning files...
+[WARN] [2026-07-13 18:31:41] Removing file from backup (due to path rules): /s2-overtakefan/wordpress/wp-content/backup-migration-config.php
+[INFO] [2026-07-13 18:31:41] Total size of excluded files: 164995800 bytes
+[VERBOSE] [2026-07-13 18:31:41] Total size of excluded files (bytes): 164995800
+[STEP] [2026-07-13 18:31:41] Checking free space, reserving...
+[INFO] [2026-07-13 18:31:41] Requires at least 199632564 bytes. [190.38 MB]
+[INFO] [2026-07-13 18:31:41] Disk free space function is disabled by hosting.
+[INFO] [2026-07-13 18:31:41] Using dummy file to check free space (it can take some time).
+[SUCCESS] [2026-07-13 18:31:41] Confirmed, there is more than enough space, checked: 199632564 bytes
+[INFO] [2026-07-13 18:31:41] Scanning done - found 8050 files...
+[SUCCESS] [2026-07-13 18:31:41] Backup initialized...
+[STEP] [2026-07-13 18:31:41] Initializing archiving system...
+[VERBOSE] [2026-07-13 18:31:41] backup_initialized
+[SUCCESS] [2026-07-13 18:31:41] Archive system initialized...
+[STEP] [2026-07-13 18:31:41] Preparing map of files...
+[SUCCESS] [2026-07-13 18:31:41] Files prepared.
+[INFO] [2026-07-13 18:31:41] Starting compression process...
+[STEP] [2026-07-13 18:31:41] Smart memory calculation...
+[INFO] [2026-07-13 18:31:41] There is 128 MBs of memory to use
+[INFO] [2026-07-13 18:31:41] WordPress memory limit: 128 MBs
+[SUCCESS] [2026-07-13 18:31:41] Setting the safe limit to 28 MB
+[INFO] [2026-07-13 18:31:41] ZipArchive is available this process should use ZipArchive
+[INFO] [2026-07-13 18:31:41] Legacy setting: Using default modules depending on user server
+[STEP] [2026-07-13 18:31:41] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2026-07-13 18:31:41] Memory usage after initialization: 74.38 MB
+[INFO] [2026-07-13 18:31:41] Iterating database...
+[VERBOSE] [2026-07-13 18:31:41] Exporting database via zip.php
+[INFO] [2026-07-13 18:31:41] Scan found 28 tables (1984 rows), estimated total size: 5.07 MB.
+[INFO] [2026-07-13 18:31:41] Memory usage after getting table names: 74.40 MB 
+[INFO] [2026-07-13 18:31:41] Getting table recipes...
+[INFO] [2026-07-13 18:31:41] Table recipes have been exported.
+[INFO] [2026-07-13 18:31:41] Memory usage after loading recipes: 74.43 MB 
+[INFO] [2026-07-13 18:31:41] Saving recipes...
+[INFO] [2026-07-13 18:31:41] Recipes saved.
+[INFO] [2026-07-13 18:31:41] Memory usage after recipe off-load: 74.41 MB
+[INFO] [2026-07-13 18:31:41] Exporting table data...
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_actionscheduler_actions (1/28, 0.19 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_actionscheduler_actions finished (0.00218s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_actionscheduler_claims (2/28, 0.03 MB)
+[INFO] [2026-07-13 18:31:41] Table wp_actionscheduler_claims is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_actionscheduler_groups (3/28, 0.03 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_actionscheduler_groups finished (0.00037s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_actionscheduler_logs (4/28, 0.05 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_actionscheduler_logs finished (0.00235s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_cmplz_cookiebanners (5/28, 0.02 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_cmplz_cookiebanners finished (0.00059s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_cmplz_cookies (6/28, 0.02 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_cmplz_cookies finished (0.00148s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_cmplz_dnsmpd (7/28, 0.02 MB)
+[INFO] [2026-07-13 18:31:41] Table wp_cmplz_dnsmpd is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_cmplz_services (8/28, 0.02 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_cmplz_services finished (0.00037s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_commentmeta (9/28, 0.05 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_commentmeta finished (0.00033s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_comments (10/28, 0.09 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_comments finished (0.00041s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_links (11/28, 0.03 MB)
+[INFO] [2026-07-13 18:31:41] Table wp_links is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_options (12/28, 2.08 MB)
+[SUCCESS] [2026-07-13 18:31:41] Table export for: wp_options finished (0.00514s)
+[STEP] [2026-07-13 18:31:41] Getting data of table: wp_postmeta (13/28, 0.23 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_postmeta finished (0.01389s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_posts (14/28, 1.58 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_posts finished (0.01456s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_pp_activity_logs (15/28, 0.02 MB)
+[INFO] [2026-07-13 18:31:42] Table wp_pp_activity_logs is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_term_relationships (16/28, 0.03 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_term_relationships finished (0.00043s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_term_taxonomy (17/28, 0.05 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_term_taxonomy finished (0.00034s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_termmeta (18/28, 0.05 MB)
+[INFO] [2026-07-13 18:31:42] Table wp_termmeta is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_terms (19/28, 0.05 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_terms finished (0.00035s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_usermeta (20/28, 0.05 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_usermeta finished (0.00077s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_users (21/28, 0.06 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_users finished (0.00037s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_wpfm_backup (22/28, 0.02 MB)
+[INFO] [2026-07-13 18:31:42] Table wp_wpfm_backup is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_wpforms_logs (23/28, 0.02 MB)
+[INFO] [2026-07-13 18:31:42] Table wp_wpforms_logs is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_wpforms_payment_meta (24/28, 0.06 MB)
+[INFO] [2026-07-13 18:31:42] Table wp_wpforms_payment_meta is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_wpforms_payments (25/28, 0.16 MB)
+[INFO] [2026-07-13 18:31:42] Table wp_wpforms_payments is empty, saving only recipe.
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_wpforms_tasks_meta (26/28, 0.02 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_wpforms_tasks_meta finished (0.00035s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_wpmailsmtp_debug_events (27/28, 0.02 MB)
+[SUCCESS] [2026-07-13 18:31:42] Table export for: wp_wpmailsmtp_debug_events finished (0.00030s)
+[STEP] [2026-07-13 18:31:42] Getting data of table: wp_wpmailsmtp_tasks_meta (28/28, 0.02 MB)
+[INFO] [2026-07-13 18:31:42] Table wp_wpmailsmtp_tasks_meta is empty, saving only recipe.
+[INFO] [2026-07-13 18:31:42] Table data exported.
+[INFO] [2026-07-13 18:31:42] Memory usage after data export: 74.42 MB
+[INFO] [2026-07-13 18:31:42] Entire process took: 0.0898 s
+[SUCCESS] [2026-07-13 18:31:42] Database backup finished
+[STEP] [2026-07-13 18:31:42] Making archive
+[INFO] [2026-07-13 18:31:42] Compressing...
+[WARN] [2026-07-13 18:31:42] Backup will run as single-request, may be unstable...
+[INFO] [2026-07-13 18:31:42] Using ZipArchive extension for this backup process.
+[STEP] [2026-07-13 18:31:42] Adding database SQL file(s) to the backup file.
+[VERBOSE] [2026-07-13 18:31:42] Database files in total found: 28
+[SUCCESS] [2026-07-13 18:31:42] Database added to the backup successfully.
+[STEP] [2026-07-13 18:31:42] Performing site files backup...
+[INFO] [2026-07-13 18:31:42] Chunks contain 500 files.
+[INFO] [2026-07-13 18:31:42] Milestone: 500/8050
+[INFO] [2026-07-13 18:31:42] Milestone: 1000/8050
+[INFO] [2026-07-13 18:31:43] Milestone: 1500/8050
+[INFO] [2026-07-13 18:31:43] Milestone: 2000/8050
+[INFO] [2026-07-13 18:31:44] Milestone: 2500/8050
+[INFO] [2026-07-13 18:31:44] Milestone: 3000/8050
+[INFO] [2026-07-13 18:31:44] Milestone: 3500/8050
+[INFO] [2026-07-13 18:31:45] Milestone: 4000/8050
+[INFO] [2026-07-13 18:31:45] Milestone: 4500/8050
+[INFO] [2026-07-13 18:31:45] Milestone: 5000/8050
+[INFO] [2026-07-13 18:31:45] Milestone: 5500/8050
+[INFO] [2026-07-13 18:31:45] Milestone: 6000/8050
+[INFO] [2026-07-13 18:31:46] Milestone: 6500/8050
+[INFO] [2026-07-13 18:31:47] Milestone: 7000/8050
+[INFO] [2026-07-13 18:31:48] Milestone: 7500/8050
+[INFO] [2026-07-13 18:31:49] Milestone: 8000/8050
+[INFO] [2026-07-13 18:31:49] Milestone: 8050/8050
+[SUCCESS] [2026-07-13 18:31:49] Compressed 8050 files
+[INFO] [2026-07-13 18:31:49] Archiving of 8050 files took: 7.82s
+[STEP] [2026-07-13 18:31:49] Finalizing backup
+[INFO] [2026-07-13 18:31:49] Generating manifest file and saving current live-log...
