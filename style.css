@@ -1,0 +1,20 @@
+/*
+Theme Name: ARCH — Horse Rescue Spain
+Theme URI: https://www.horserescuespain.org/
+Author: ARCH Design Concept
+Description: Redesign concept for the Andalucian Rescue Centre for Horses (ARCH), converted from static HTML/CSS into a WordPress theme. Single-page design: hero, what-we-do, equines, about, how-to-help, wishlist, news, contact, newsletter, footer.
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+License: Unlicense
+Text Domain: arch
+*/
+
+/*
+This file intentionally holds only the WordPress theme header comment above —
+it's required for WordPress to recognise this as a valid theme and populate
+the Appearance > Themes screen. The actual visual design (colours, layout,
+typography, animations) lives in assets/arch.css and is loaded via
+wp_enqueue_style() in functions.php, which is the correct WordPress way to
+load styles rather than editing this file directly.
+*/
